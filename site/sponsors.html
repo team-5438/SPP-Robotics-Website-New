@@ -18,7 +18,7 @@
 <body>
     <nav class="container-fluid maroon-background nav-fixes"> <!-- Added container-fluid to work around this bug: https://github.com/picocss/pico/issues/549 -->
         <ul>
-            <img src="./img/logo.png" alt="Saint Peter's Prep logo" width="32" height="32"> <!-- <img> inside of <ul> isn't actually allowed, but this works anyway. -->
+            <button id="nav-image" title="Click to jump to top"><span class="visually-hidden">Saint Peter's Prep logo</span></button>
             <li><strong>Team 5438</strong> 👉 Sponsors</li>
         </ul>
         <ul>
@@ -67,5 +67,6 @@
             <input type="submit" value="Subscribe">
         </form>
     </div>
+    <script src="./js/site.js"></script>
 </body>
 </html>
