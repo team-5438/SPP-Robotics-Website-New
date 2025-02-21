@@ -53,4 +53,5 @@
 .sponsor-card-fixes {
   --pico-primary: white;
   --pico-color: white;
+  --pico-primary-hover-background: var(--silver-brand-color-lighter);
 }
