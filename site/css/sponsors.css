@@ -33,9 +33,12 @@
 
 /* Style the front side (fallback if image is missing) */
 .sponsor-card-front {
-  background-color: var(--maroon-brand-color);
+  background-color: var(--pico-secondary-background);
   color: white;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Style the back side */
@@ -44,6 +47,10 @@
   color: white;
   transform: rotateY(180deg);
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .sponsor-img {
