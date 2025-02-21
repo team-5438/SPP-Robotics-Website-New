@@ -24,6 +24,7 @@
   --pico-color: white;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 #nav-image {
@@ -66,5 +67,11 @@
     --pico-primary-hover-background: var(--silver-brand-color-darker);
     --pico-primary-focus: var(--maroon-brand-color-darker);
     --pico-primary-inverse: white;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .nav-720px-cutoff {
+    display: none;
   }
 }
