@@ -1,0 +1,55 @@
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), var(--selected-hero-image);
+
+  /* Set a specific height */
+  height: 350px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  --pico-color: white;
+  --pico-h1-color: white;
+  --pico-h2-color: white;
+  --pico-h3-color: white;
+  --pico-h4-color: white;
+  --pico-h5-color: white;
+}
+
+/* Keep the color for <p> in <hgroup> consistent across light and dark modes */
+hgroup > :not(:first-child):last-child {
+  --pico-color: #7b8495;
+}
+
+.hero-image-home {
+    background-position: top;
+    --selected-hero-image: url("../img/heroes/home.webp");
+}
+
+.hero-image-about {
+    --selected-hero-image: url("../img/heroes/about.webp");
+}
+
+.hero-image-sponsors {
+    background-position: center;
+    --selected-hero-image: url("../img/heroes/sponsors.webp");
+}
+
+.hero-image-contact {
+    --selected-hero-image: url("../img/heroes/contact.webp");
+}
+
+.hero-image-directory {
+    --selected-hero-image: url("../img/heroes/directory.webp");
+}
