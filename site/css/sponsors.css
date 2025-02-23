@@ -33,7 +33,7 @@
 
 /* Style the front side (fallback if image is missing) */
 .sponsor-card-front {
-  background-color: white;
+  background-color: #eeeeee;
   color: black;
   border-radius: 10px;
   display: flex;
@@ -44,11 +44,15 @@
 /* Style the back side */
 .sponsor-card-back {
   background-color: var(--silver-brand-color-darker);
-  color: white;
+  --pico-color: white;
+  --pico-h1-color: white;
+  --pico-h2-color: white;
+  --pico-h3-color: white;
+  --pico-h4-color: white;
+  --pico-h5-color: white;
   transform: rotateY(180deg);
   border-radius: 10px;
   display: flex;
-  justify-content: center;
   justify-content: center;
   flex-direction: column;
 }
@@ -61,4 +65,8 @@
   --pico-primary: white;
   --pico-color: white;
   --pico-primary-hover-background: var(--silver-brand-color-even-darker);
+}
+
+.sponsor-card-fixes > a:has(button) {
+  width: max-content;
 }
