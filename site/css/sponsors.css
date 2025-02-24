@@ -67,7 +67,3 @@
   --pico-color: white;
   --pico-primary-hover-background: var(--silver-brand-color-even-darker);
 }
-
-.sponsor-card-fixes > a > button {
-  width: 80%;
-}
