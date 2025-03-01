@@ -16,7 +16,7 @@
     <div class="content container-fluid">
         <br>
         <h1>404 Not Found</h1>
-        <p>It looks like you've reached a dead end. Maybe try going <a id="home-link" href="#">home</a>?</p>
+        <p>It looks like you've reached a dead end. Maybe try going <a id="back-link" href="#">back</a>?</p>
     </div>
     <!-- Some inline CSS/JS to keep things consistent. This has to be placed inline because site.css is a local site resource, which isn't allowed in this context. -->
     <style>
@@ -63,8 +63,8 @@
       }
     </style>
     <script>
-        const homeLink = document.getElementById("home-link")
-        homeLink.addEventListener("click", (event) => {
+        const backLink = document.getElementById("back-link")
+        backLink.addEventListener("click", (event) => {
             event.preventDefault()
             history.back()
         })
