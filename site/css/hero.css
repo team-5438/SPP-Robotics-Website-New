@@ -1,6 +1,6 @@
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), var(--selected-hero-image);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), var(--selected-hero-image), var(--selected-hero-image-placeholder);
 
   /* Set a specific height */
   height: 350px;
@@ -35,21 +35,26 @@ hgroup > :not(:first-child):last-child {
 .hero-image-home {
     background-position: top;
     --selected-hero-image: url("../img/heroes/home.webp");
+    --selected-hero-image-placeholder: url("data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBACdASogAA4APm0sk0WkIqGYBABABsSyAE6ZQZLGbtyZonz2q+DMLADeZ8Fi941QGG/brsX2CLtnzP7/qNAHyT3Lc2GVGo3jfuL/DQ+0RgVkRs6975IypswdCTGHPEsM5jnsoHc7c8jYovpcW4AMvyY060AAAAA=");
 }
 
 .hero-image-about {
     --selected-hero-image: url("../img/heroes/about.webp");
+    --selected-hero-image-placeholder: url("data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASogAA4APm0uk0WkIqGYBABABsSxgE6ZQAUgt8gK4Ibo4AD++9V5qKHDAaBF0/nRpoCPTb6hTgHHeJ8gh0MM2EUreVY+a/9JN1JbhOzY7H09t/birnwAAA==");
 }
 
 .hero-image-sponsors {
     background-position: center;
     --selected-hero-image: url("../img/heroes/sponsors.webp");
+    --selected-hero-image-placeholder: url("data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASogAA4ALk02m02hJCQkBABMSzgCoKxuA4AX/A3GFMLAAPzPGw6LZkml6l9h7EgMmrWgcS5ok0W+STabhHapaA4onSUxAAAA");
 }
 
 .hero-image-contact {
     --selected-hero-image: url("../img/heroes/contact.webp");
+    --selected-hero-image-placeholder: url("data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASogAA4ALk02m02hJCQkBABMS2AE6coADOnbyQsaLM7ymsIAAP7o8Zv8jeaQ+uz6DWafkTXRP1VLQTdjFVLrlWHxfeJhmgV9KWY2Zh7Au+A5NYAAAAA=");
 }
 
 .hero-image-directory {
     --selected-hero-image: url("../img/heroes/directory.webp");
+    --selected-hero-image-placeholder: url("data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAwCdASogAA4ALk02m02hJCQkBABMSyAE6ZQj48Kp/Ofz306abECQAP70Q2qU8a4qU6kWRD9e9pF0vuJ37eHlnu+8VYcgpi4NYmmu36Ux3AA8SLzRJgPtG8eMAAAA");
 }
