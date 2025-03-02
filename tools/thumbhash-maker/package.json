@@ -1,0 +1,18 @@
+{
+  "name": "super-amazing-thumbhash-maker",
+  "version": "1.0.1",
+  "description": "Super amazing thumbhash maker.",
+  "type": "module",
+  "main": "thumbhash-maker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anon-123456789",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "sharp": "^0.33.5",
+    "thumbhash": "^0.1.1",
+    "webp-converter": "^2.3.3"
+  }
+}

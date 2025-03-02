@@ -1,0 +1,2 @@
+# Tools
+This folder contains some tools used to build some things on the site. For now there's only the `thumbhash-maker`, which generates the placeholders for the hero images that are embedded in `hero.css`.
