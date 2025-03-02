@@ -1,0 +1,36 @@
+.section-image {
+    background-image: var(--selected-section-image);
+  
+    /* Set a specific height */
+    height: 350px;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    border-radius: 10px;
+}
+
+.section-image-home {
+  background-position: top;
+  --selected-section-image: url("../img/heroes/home.webp");
+}
+
+.section-image-about {
+  --selected-section-image: url("../img/heroes/about.webp");
+}
+
+.section-image-sponsors {
+  background-position: center;
+  --selected-section-image: url("../img/heroes/sponsors.webp");
+}
+
+.section-image-contact {
+  --selected-section-image: url("../img/heroes/contact.webp");
+}
+
+.section-image-directory {
+  --selected-section-image: url("../img/heroes/directory.webp");
+}
