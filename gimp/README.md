@@ -1,5 +1,5 @@
 # What is this?
-This folder contains [GIMP](https://gimp.org) image files used for the hero images, before being converted to WebP.
+This folder contains [GIMP](https://gimp.org) image files used for the hero images (and the footer image), before being converted to WebP.
 
 # How to generate hero images (probably not the best method, but whatever)
 1. Open the image file you want to use in GIMP.

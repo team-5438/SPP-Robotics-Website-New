@@ -1,0 +1,43 @@
+:root {
+    --selected-footer-image: url("../img/footer/howtowin.webp");
+}
+
+.footer-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), var(--selected-footer-image);
+  background-color: black;
+
+  /* Set a specific height */
+  height: 350px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.footer-text {
+    --pico-color: white;
+    --pico-h1-color: white;
+    --pico-h2-color: white;
+    --pico-h3-color: white;
+    --pico-h4-color: white;
+    --pico-h5-color: white;
+}
+
+.footer-links > a {
+    --pico-color: white;
+    --pico-h1-color: white;
+    --pico-h2-color: white;
+    --pico-h3-color: white;
+    --pico-h4-color: white;
+    --pico-h5-color: white;
+    --pico-primary-hover: var(--maroon-brand-color-even-lighter);
+    --pico-text-decoration: none;
+}
+
+/* Keep the color for <p> in <hgroup> consistent across light and dark modes */
+  hgroup > :not(:first-child):last-child {
+  --pico-color: #7b8495;
+}
