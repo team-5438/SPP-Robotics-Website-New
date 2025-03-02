@@ -1,7 +1,11 @@
+:root {
+  --sponsor-card-size: 300px;
+}
+
 .sponsor-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: var(--sponsor-card-size);
+  height: var(--sponsor-card-size);
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   border-radius: 10%;
 }
@@ -66,4 +70,9 @@
   --pico-primary: white;
   --pico-color: white;
   --pico-primary-hover-background: var(--silver-brand-color-even-darker);
+}
+
+.sponsor-card-grid {
+  grid-template-columns: repeat(auto-fill, var(--sponsor-card-size));
+  place-content: center;
 }
