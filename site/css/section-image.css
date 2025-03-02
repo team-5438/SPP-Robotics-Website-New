@@ -1,36 +1,12 @@
-.section-image {
-    background-image: var(--selected-section-image);
-  
-    /* Set a specific height */
-    height: 350px;
-  
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.section-image {  
+  /* Set a specific height and width */
+  height: 350px;
+  width: 100%;
 
-    border-radius: 10px;
-}
+  /* Position and center the image to scale nicely on all screens */
+  object-position: center;
+  object-fit: cover;
+  position: relative;
 
-.section-image-home {
-  background-position: top;
-  --selected-section-image: url("../img/heroes/home.webp");
-}
-
-.section-image-about {
-  --selected-section-image: url("../img/heroes/about.webp");
-}
-
-.section-image-sponsors {
-  background-position: center;
-  --selected-section-image: url("../img/heroes/sponsors.webp");
-}
-
-.section-image-contact {
-  --selected-section-image: url("../img/heroes/contact.webp");
-}
-
-.section-image-directory {
-  --selected-section-image: url("../img/heroes/directory.webp");
+  border-radius: 10px;
 }
