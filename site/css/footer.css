@@ -5,7 +5,7 @@
 .footer-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), var(--selected-footer-image);
-  background-color: #880024;
+  background-color: var(--maroon-brand-color);
 
   /* Set a specific height */
   height: 350px;
