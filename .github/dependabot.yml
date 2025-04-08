@@ -9,7 +9,11 @@ updates:
     directory: "/tools/thumbhash-maker" # Location of package manifests
     schedule:
       interval: "weekly"
+    commit-message:
+      prefix: "[CF-Pages-Skip] "
   - package-ecosystem: "bun" # See documentation for possible values
     directory: "/tools/thumbhash-maker" # Location of package manifests
     schedule:
       interval: "weekly"
+    commit-message:
+      prefix: "[CF-Pages-Skip] "
