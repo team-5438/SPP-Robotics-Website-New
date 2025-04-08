@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.4.1",
-    "sharp": "^0.34.0",
+    "sharp": "^0.34.1",
     "thumbhash": "^0.1.1",
     "webp-converter": "^2.3.3"
   }
