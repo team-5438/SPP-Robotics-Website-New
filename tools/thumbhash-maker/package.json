@@ -1,6 +1,7 @@
 {
   "name": "super-amazing-thumbhash-maker",
   "version": "1.0.1",
+  "private": true,
   "description": "Super amazing thumbhash maker.",
   "type": "module",
   "main": "thumbhash-maker.js",
