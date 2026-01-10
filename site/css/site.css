@@ -71,8 +71,8 @@
   }
 }
 
-@media screen and (max-width: 720px) {
-  .nav-720px-cutoff {
+@media screen and (max-width: 810px) {
+  .nav-810px-cutoff {
     clip: rect(0 0 0 0); 
     clip-path: inset(50%);
     height: 1px;
