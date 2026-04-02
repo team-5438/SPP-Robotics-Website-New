@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="/css/section-image.css">
     <link rel="stylesheet" href="/css/footer.css">
     {% for css_file in extra_css %}
-        <link rel="stylesheet" href="{{ css_file }}">
+    <link rel="stylesheet" href="{{ css_file }}">
     {% endfor %}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
 </head>
@@ -40,7 +40,7 @@
         </ul>
     </nav>
     <!-- Hero image -->
-    <div class="hero-image hero-image-{{ hero }}">
+    <div class="hero-image{% if hero %} hero-image-{{ hero }}{% endif %}">
         <div class="hero-text">
             <hgroup>
                 <h1>Team 5438</h1>
@@ -49,7 +49,7 @@
         </div>
     </div>
     <main>
-        {% if topLevelContainer == true %}
+        {% if topLevelContainer != false %}
         <div class="container">
             {{ content }}
         </div>
