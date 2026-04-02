@@ -1,6 +1,7 @@
 ---
 layout: base.html
 title: Home
+description: The home page for Team 5438, which is a FIRST Robotics Competition (FRC) team based out of Jersey City, NJ
 hero: home
 ---
 
