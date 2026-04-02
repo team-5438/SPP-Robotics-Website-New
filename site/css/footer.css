@@ -1,5 +1,5 @@
 :root {
-    --selected-footer-image: url("../img/footer/howtowin.webp");
+    --selected-footer-image: url("/img/footer/howtowin.webp");
 }
 
 .footer-image {

@@ -30,7 +30,7 @@
 
 #nav-image {
   background-size: cover;
-  background-image: url(../img/logo.png);
+  background-image: url(/img/logo.png);
   aspect-ratio: 1/1;
 }
 

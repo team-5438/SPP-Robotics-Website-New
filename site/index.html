@@ -1,128 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="light dark"> <!-- This should prevent any noticeable flashing when dark mode is in use -->
-    <meta name="description" content="The home page for Team 5438, which is a FIRST Robotics Competition (FRC) team based out of Jersey City, NJ">
-    <title>Home - SPP Robotics (Team 5438)</title>
-    <link rel="icon" href="./img/logo.png" type="image/png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" as="style">
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" as="style">
-    <link rel="preload" href="./css/site.css" as="style">
-    <link rel="preload" href="./css/hero.css" as="style">
-    <link rel="preload" href="./css/section-image.css" as="style">
-    <link rel="preload" href="./css/footer.css" as="style">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./css/site.css">
-    <link rel="stylesheet" href="./css/hero.css">
-    <link rel="stylesheet" href="./css/section-image.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
-</head>
-<body>
-    <nav class="container-fluid maroon-background nav-fixes"> <!-- Added container-fluid to work around this bug: https://github.com/picocss/pico/issues/549 -->
-        <ul>
-            <a id="nav-image" href="#" role="button" title="Click to jump to top"><span class="visually-hidden">Saint Peter's Prep logo</span></a>
-            <li><strong>Team 5438</strong> 👉 Home</li>
-        </ul>
-        <ul>
-            <li><a href="./index.html"><i class="bi bi-house" aria-hidden="true"></i><span class="nav-810px-cutoff"> Home</span></a></li>
-            <li><a href="./about.html"><i class="bi bi-info-circle" aria-hidden="true"></i><span class="nav-810px-cutoff"> About</span></a></li>
-            <li><a href="./sponsors.html"><i class="bi bi-bank" aria-hidden="true"></i><span class="nav-810px-cutoff"> Sponsors</span></a></li>
-            <li><a href="./contact.html"><i class="bi bi-mailbox-flag" aria-hidden="true"></i><span class="nav-810px-cutoff"> Contact</span></a></li>
-            <li><a href="./robots/directory.html"><i class="bi bi-robot" aria-hidden="true"></i><span class="nav-810px-cutoff"> Our robots</span></a></li>
-        </ul>
-    </nav>
-    <!-- Hero image -->
-    <div class="hero-image hero-image-home">
-        <div class="hero-text">
-            <hgroup>
-                <h1>Team 5438</h1>
-                <p>Technological Terrors</p>
-            </hgroup>
-        </div>
+---
+layout: base.html
+title: Home
+hero: home
+topLevelContainer: true
+---
+
+<br>
+<!-- about us section -->
+<div class="grid">
+    <!-- text section -->
+    <div>
+        <h2>About Us</h2>
+        <p>We are a FIRST Robotics Competition (FRC) team based out of Jersey City, NJ.</p>
+        <a href="/about" role="button"><i class="bi bi-info-circle" aria-hidden="true"></i> Learn more about us</a>
     </div>
-    <main>
-        <div class="container">
-            <br>
-            <!-- about us section -->
-            <div class="grid">
-                <!-- text section -->
-                <div>
-                    <h2>About Us</h2>
-                    <p>We are a FIRST Robotics Competition (FRC) team based out of Jersey City, NJ.</p>
-                    <a href="./about.html" role="button"><i class="bi bi-info-circle" aria-hidden="true"></i> Learn more about us</a>
-                </div>
-                <!-- image section-->
-                <img class="section-image" loading="lazy" src="./img/heroes/about.webp" alt="Some of our team members working on our 2024 robot">
-            </div>
-            <hr>
-            <!-- sponsors section -->
-            <div class="grid">
-                <!-- image section -->
-                <img class="section-image" loading="lazy" src="./img/heroes/sponsors.webp" alt="Team 5438 banner">
-                <!-- text section -->
-                <div>
-                    <h2>Sponsors</h2>
-                    <p>Our sponsors help keep our team going. With your help, we can provide the best possible experience for our team members.</p>
-                    <a href="./sponsors.html" role="button"><i class="bi bi-bank" aria-hidden="true"></i> See our sponsors</a>
-                </div>
-            </div>
-            <hr>
-            <!-- contact section -->
-            <div class="grid">
-                <!-- text section -->
-                <div>
-                    <h2>Contact</h2>
-                    <p>Let's get in touch! We have multiple ways you can reach out to us, all detailed on our contact page.</p>
-                    <a href="./contact.html" role="button"><i class="bi bi-mailbox-flag" aria-hidden="true"></i> Contact us</a>
-                </div>
-                <!-- image section -->
-                <img class="section-image" loading="lazy" src="./img/heroes/contact.webp" alt="Audience holding up &quot;5438&quot; and cheering for our team">
-            </div>
-            <hr>
-            <!-- robots section -->
-            <div class="grid">
-                <!-- image section -->
-                <img class="section-image" loading="lazy" src="./img/heroes/directory.webp" alt="A Team 5438 robot hanging on chains, for some reason">
-                <!-- text section -->
-                <div>
-                    <h2>Robots</h2>
-                    <p>All of the robots we've made, in chronological order.</p>
-                    <a href="./robots/directory.html" role="button"><i class="bi bi-robot" aria-hidden="true"></i> See our robots</a>
-                </div>
-            </div>
-        </div>
-    </main>
-    <br>
-    <!-- Footer -->
-    <div class="footer-image">
-        <div class="container-fluid">
-            <br>
-            <div class="footer-text">
-                <hgroup>
-                    <h1>Team 5438</h1>
-                    <p>Technological Terrors</p>
-                </hgroup>
-            </div>
-            <div class="footer-links">
-                <a href="https://github.com/team-5438" target="_blank"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a>
-                <br>
-                <a href="./index.html"><i class="bi bi-house" aria-hidden="true"></i> Home</a>
-                <br>
-                <a href="./about.html"><i class="bi bi-info-circle" aria-hidden="true"></i> About</a>
-                <br>
-                <a href="./sponsors.html"><i class="bi bi-bank" aria-hidden="true"></i> Sponsors</a>
-                <br>
-                <a href="./contact.html"><i class="bi bi-mailbox-flag" aria-hidden="true"></i> Contact</a>
-                <br>
-                <a href="./robots/directory.html"><i class="bi bi-robot" aria-hidden="true"></i> Our robots</a>
-            </div>
-        </div>
+    <!-- image section-->
+    <img class="section-image" loading="lazy" src="/img/heroes/about.webp" alt="Some of our team members working on our 2024 robot">
+</div>
+<hr>
+<!-- sponsors section -->
+<div class="grid">
+    <!-- image section -->
+    <img class="section-image" loading="lazy" src="/img/heroes/sponsors.webp" alt="Team 5438 banner">
+    <!-- text section -->
+    <div>
+        <h2>Sponsors</h2>
+        <p>Our sponsors help keep our team going. With your help, we can provide the best possible experience for our team members.</p>
+        <a href="/sponsors" role="button"><i class="bi bi-bank" aria-hidden="true"></i> See our sponsors</a>
     </div>
-</body>
-</html>
+</div>
+<hr>
+<!-- contact section -->
+<div class="grid">
+    <!-- text section -->
+    <div>
+        <h2>Contact</h2>
+        <p>Let's get in touch! We have multiple ways you can reach out to us, all detailed on our contact page.</p>
+        <a href="/contact" role="button"><i class="bi bi-mailbox-flag" aria-hidden="true"></i> Contact us</a>
+    </div>
+    <!-- image section -->
+    <img class="section-image" loading="lazy" src="/img/heroes/contact.webp" alt="Audience holding up &quot;5438&quot; and cheering for our team">
+</div>
+<hr>
+<!-- robots section -->
+<div class="grid">
+    <!-- image section -->
+    <img class="section-image" loading="lazy" src="/img/heroes/directory.webp" alt="A Team 5438 robot hanging on chains, for some reason">
+    <!-- text section -->
+    <div>
+        <h2>Robots</h2>
+        <p>All of the robots we've made, in chronological order.</p>
+        <a href="/robots/directory" role="button"><i class="bi bi-robot" aria-hidden="true"></i> See our robots</a>
+    </div>
+</div>
