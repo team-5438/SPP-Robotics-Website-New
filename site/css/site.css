@@ -86,3 +86,7 @@
 html {
   scroll-behavior: smooth !important;
 }
+
+a:has(.bi) {
+  text-decoration: none !important;
+}
