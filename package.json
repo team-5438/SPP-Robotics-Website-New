@@ -1,0 +1,12 @@
+{
+  "name": "spp-robotics-website-non-11ty",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Building skipped in the non-11ty version.\" && exit 0"
+  }
+}
