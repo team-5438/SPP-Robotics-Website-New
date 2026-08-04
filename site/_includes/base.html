@@ -29,10 +29,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
 </head>
 <body>
+    <a role="button" href="#main-content" class="skip-link">Jump to main content</a>
     <nav class="container-fluid maroon-background nav-fixes"> <!-- Added container-fluid to work around this bug: https://github.com/picocss/pico/issues/549 -->
         <ul>
             <a id="nav-image" href="#" role="button" title="Click to jump to top"><span class="visually-hidden">Saint Peter's Prep logo</span></a>
-            <li><strong>Team 5438</strong> 👉 {{ title }}</li>
+            <li><strong>Team 5438</strong> <span aria-hidden="true">👉</span><span class="visually-hidden">-</span> {{ title }}</li>
         </ul>
         <ul>
             <li><a href="/"><i class="bi bi-house" aria-hidden="true"></i><span class="nav-810px-cutoff"> Home</span></a></li>
@@ -51,7 +52,7 @@
             </hgroup>
         </div>
     </div>
-    <main>
+    <main id="main-content">
         {% if topLevelContainer != false %}
         <div class="container">
             {{ content }}

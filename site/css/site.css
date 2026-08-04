@@ -42,6 +42,7 @@
   position: absolute;
   white-space: nowrap; 
   width: 1px;
+  user-select: none;
 }
 
 /* Light theme */
@@ -50,7 +51,7 @@
   --pico-text-selection-color: var(--maroon-brand-color-even-lighter-transparent);
   --pico-primary: var(--maroon-brand-color);
   --pico-primary-background: var(--maroon-brand-color);
-  --pico-primary-underline: var(--maroon-brand-color-lighter);
+  --pico-primary-underline: var(--maroon-brand-color);
   --pico-primary-hover: var(--maroon-brand-color-darker);
   --pico-primary-hover-background: var(--silver-brand-color-darker);
   --pico-primary-focus: var(--maroon-brand-color);
@@ -63,7 +64,7 @@
     --pico-text-selection-color: var(--maroon-brand-color-even-lighter-transparent);
     --pico-primary: var(--maroon-brand-color-lighter);
     --pico-primary-background: var(--maroon-brand-color);
-    --pico-primary-underline: var(--maroon-brand-color-darker);
+    --pico-primary-underline: var(--maroon-brand-color-lighter);
     --pico-primary-hover: var(--maroon-brand-color-even-lighter);
     --pico-primary-hover-background: var(--silver-brand-color-darker);
     --pico-primary-focus: var(--maroon-brand-color-darker);
@@ -85,8 +86,24 @@
 
 html {
   scroll-behavior: smooth !important;
+  scroll-padding-top: 70px; /* Prevents the navbar from covering up the content when scrolling to specific elements */
 }
 
 a:has(.bi) {
   text-decoration: none !important;
+}
+
+.skip-link {
+  z-index: 9999;
+  position: absolute;
+  top: -3em;
+}
+
+.skip-link:focus {
+  top: 0;
+  border-width: 0;
+}
+
+hgroup > :not(:first-child):last-child {
+  --pico-color: var(--pico-color) !important;
 }
