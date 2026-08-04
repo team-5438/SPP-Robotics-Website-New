@@ -9,6 +9,10 @@ hero: contact
 For general inquiries, please use the first email listed below (<a href="mailto:spprobotics@gmail.com">spprobotics@gmail.com</a>). The other email addresses on this page should only be used if you need to contact a specific person. Thank you!
 <hr>
 <!-- Contact information stuff -->
+<article>
+    <h2>Important!</h2>
+    Some of the contact information on this page is outdated and needs to be updated.
+</article>
 
 <!-- Team 5438 email -->
 <hgroup>
