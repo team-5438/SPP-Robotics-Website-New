@@ -41,15 +41,3 @@ hero: home
     <!-- image section -->
     <img class="section-image" loading="lazy" src="/img/heroes/contact.webp" alt="Audience holding up &quot;5438&quot; and cheering for our team">
 </div>
-<hr>
-<!-- robots section -->
-<div class="grid">
-    <!-- image section -->
-    <img class="section-image" loading="lazy" src="/img/heroes/directory.webp" alt="A Team 5438 robot hanging on chains, for some reason">
-    <!-- text section -->
-    <div>
-        <h2>Robots</h2>
-        <p>All of the robots we've made, in chronological order.</p>
-        <a href="/robots/directory" role="button"><i class="bi bi-robot" aria-hidden="true"></i> See our robots</a>
-    </div>
-</div>

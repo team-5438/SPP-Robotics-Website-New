@@ -9,10 +9,6 @@ hero: contact
 For general inquiries, please use the first email listed below (<a href="mailto:spprobotics@gmail.com">spprobotics@gmail.com</a>). The other email addresses on this page should only be used if you need to contact a specific person. Thank you!
 <hr>
 <!-- Contact information stuff -->
-<article>
-    <h2>Important!</h2>
-    Some of the contact information on this page is outdated and needs to be updated.
-</article>
 
 <!-- Team 5438 email -->
 <hgroup>
@@ -41,7 +37,7 @@ Email: <a href="mailto:oharer@spprep.org">oharer@spprep.org</a>
 <!-- Team Captain's email (currently Max Middleton)-->
 <hgroup>
     <h4><i class="bi bi-file-person" aria-hidden="true"></i> Team Captain</h4>
-    <p>Max Middleton</p>
+    <p>Max Yershov</p>
 </hgroup>
 
-Email: <a href="mailto:middletonm25@students.spprep.org">middletonm25@students.spprep.org</a>
+Email: <a href="mailto:yershovm27@students.spprep.org">yershovm27@students.spprep.org</a>
