@@ -24,7 +24,7 @@ extra_css: /css/sponsors.css
     <div class="sponsor-card">
         <div class="sponsor-card-inner">
             <div class="sponsor-card-front">
-                <img class="sponsor-img" src="/img/logos/spp.webp" alt="Saint Peter's Prep Emblem" style="width:250px;height:auto;">
+                <img class="sponsor-img" src="/img/logos/spp.svg" alt="Saint Peter's Prep Emblem" style="width:250px;height:auto;">
             </div>
             <div class="sponsor-card-back sponsor-card-fixes">
                 <h1>Saint Peter's Prep</h1>

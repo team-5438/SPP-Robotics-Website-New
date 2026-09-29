@@ -5,6 +5,7 @@ description: General information about Team 5438, which is a FIRST Robotics Comp
 hero: about
 heroTitle: About
 heroDescription: Team 5438
+date: git Last Modified
 ---
 
 <br>
