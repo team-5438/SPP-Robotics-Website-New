@@ -3,6 +3,8 @@ layout: base.html
 title: Contact
 description: The contact information of Team 5438, which is a FIRST Robotics Competition (FRC) team based out of Jersey City, NJ
 hero: contact
+heroTitle: Contact
+heroDescription: Team 5438
 ---
 
 ## Read this first

@@ -3,6 +3,8 @@ layout: base.html
 title: Example Page
 description: Example description for an example page. YOU MUST CHANGE THIS WHEN THIS BECOMES A REAL PAGE!
 hero: contact
+heroTitle: Example Page
+heroDescription: Team 5438
 ---
 
 <br>
